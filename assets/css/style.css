@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Righteous&display=swap');
+
 /* override default styles added by the browser */
 * {
     padding: 0;
@@ -18,4 +20,20 @@ body {
     text-align: center;
     min-height: 100vh;
 
+}
+
+/* Header styles */
+.top {
+    padding-top: 50px;
+}
+
+.top h1 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.top h2 {
+    font-size: 24px;
+    font-weight: 500;
 }
